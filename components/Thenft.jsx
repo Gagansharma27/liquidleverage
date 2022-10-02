@@ -5,7 +5,7 @@ import Nft from './Nft'
 export default function Thenft() {
   return (
     <>
-    <div className='container text-left text-6xl mt-40 mb-12' >
+    <div className='container mx-auto text-left text-6xl mt-40 mb-12' >
     The Nft
     </div>
     <div className='flex flex-col space-y-28' >

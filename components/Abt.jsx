@@ -4,9 +4,9 @@ import React from "react";
 export default function About() {
   return (
     <div className="mt-16 w-full">
-      <h1 className=" container text-6xl text-right"> ABOUT US</h1>
+      <h1 className=" container mx-auto  text-6xl text-right"> ABOUT US</h1>
 
-      <div className="container flex mt-12 justify-between">
+      <div className="container mx-auto  flex mt-12 justify-between">
         <Image src="/images/1_8.jpg" width={400} height={500} />
 
         <div className="w-1/2 text-right flex flex-col space-y-20 text-lg">
@@ -35,7 +35,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className=" container  flex items-center justify-center">
+      <div className=" container mx-auto flex items-center justify-center">
       <iframe className="mt-16 w-full"
        height={720}
         src="https://www.youtube.com/embed/tgbNymZ7vqY"

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <>
-      <div className="container m-0 flex items-center justify-between ">
+      <div className="container mx-auto  m-0 flex items-center justify-between ">
         <div className="flex space-x-24   ">
           <Image src="/images/liquid-logo-02.png" width={200} height={150} />
 

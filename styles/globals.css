@@ -6,3 +6,19 @@ body{
   background-color: rgb(4,13,26);
   color: white;
 }
+
+@media screen and (max-width: 1650px) and (min-width: 1200px)  {
+  .imagesBear{
+    max-width: 17vw!important;
+  }
+}
+@media screen and (max-width: 1350px) and (min-width: 1000px)  {
+  .imagesBear{
+    max-width: 20vw!important;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 70px)  {
+  .imagesBear{
+    max-width: 30vw!important;
+  }
+}

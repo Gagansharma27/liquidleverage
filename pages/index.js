@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Liquid Leverage</title>
       </Head>
-      <div className="m-9 mx-16" >
+      <div>
         <Navbar />
         <Banner />
         <About/>
